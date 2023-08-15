@@ -19,7 +19,7 @@ class FillCollectionViewCell: UICollectionViewCell {
 
     func configure() {
         self.backgroundColor = .red
-        self.translatesAutoresizingMaskIntoConstraints = false
+        //    self.translatesAutoresizingMaskIntoConstraints = false
         self.heightAnchor.constraint(equalToConstant: 200).isActive = true
     }
 }
